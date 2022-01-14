@@ -262,6 +262,14 @@ local importantAuras = {
         magic = true,
         spellID = 14309,
     },
+    -- Improved Wing Clip
+    [GetSpellInfo(19229)] = {
+        track = AURA_TYPE_DEBUFF,
+        duration = 5,
+        priority = 40,
+        spellSchool = "physical",
+        spellID = 19229,
+    },
     -- Wyvern Sting
     [GetSpellInfo(19386)] = {
         track = AURA_TYPE_DEBUFF,
